@@ -15,7 +15,6 @@ class Detail extends StatelessWidget {
       backgroundColor: Colors.grey[50],
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        brightness: Brightness.light,
         elevation: 0,
         leading: GestureDetector(
           onTap: () {
@@ -71,13 +70,13 @@ class Detail extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
 
-                      buildTextTitleVariation2('Nutritions', false),
+                      buildTextTitleVariation2('Voeding', false),
 
                       SizedBox(
                         height: 16,
                       ),
 
-                      buildNutrition(recipe.calories, "Calories", "Kcal"),
+                      buildNutrition(recipe.calories, "Calorieën", "Kcal"),
 
                       SizedBox(
                         height: 16,
@@ -89,7 +88,7 @@ class Detail extends StatelessWidget {
                         height: 16,
                       ),
 
-                      buildNutrition(recipe.protein, "Protein", "g"),
+                      buildNutrition(recipe.protein, "Eiwitten", "g"),
 
                     ],
                   ),
@@ -121,27 +120,27 @@ class Detail extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   
-                  buildTextTitleVariation2('Ingredients', false),
+                  buildTextTitleVariation2('Ingrediënten', false),
 
-                  buildTextSubTitleVariation1("2 cups pecans, divided"),
-                  buildTextSubTitleVariation1("1 tablespoon unsalted butter, melted"),
-                  buildTextSubTitleVariation1("1/4 teaspoon kosher salt, plus more"),
-                  buildTextSubTitleVariation1("3 tablespoons fresh lemon juice"),
-                  buildTextSubTitleVariation1("2 tablespoons olive oil"),
+                  buildTextSubTitleVariation1("2 kopjes pecannoten, verdeeld"),
+                  buildTextSubTitleVariation1("1 eetlepel ongezouten boter, gesmolten"),
+                  buildTextSubTitleVariation1("1/4 theelepel zout, plus meer"),
+                  buildTextSubTitleVariation1("3 eetlepels vers citroensap"),
+                  buildTextSubTitleVariation1("2 eetlepels olijfolie"),
                   buildTextSubTitleVariation1("1/2 teaspoon honey"),
 
                   SizedBox(height: 16,),
 
-                  buildTextTitleVariation2('Recipe preparation', false),
+                  buildTextTitleVariation2('Bereidingswijze', false),
 
-                  buildTextSubTitleVariation1("STEP 1"),
-                  buildTextSubTitleVariation1("In a medium bowl, mix all the marinade ingredients with some seasoning. Chop the chicken into bite-sized pieces and toss with the marinade. Cover and chill in the fridge for 1 hr or overnight."),
+                  buildTextSubTitleVariation1("STAP 1"),
+                  buildTextSubTitleVariation1("Meng in een middelgrote kom alle ingrediënten voor de marinade met wat kruiden. Snijd de kip in hapklare stukjes en meng met de marinade. Dek af en zet 1 uur of een nacht in de koelkast."),
 
-                  buildTextSubTitleVariation1("STEP 2"),
-                  buildTextSubTitleVariation1("In a large, heavy saucepan, heat the oil. Add the onion, garlic, green chilli, ginger and some seasoning. Fry on a medium heat for 10 mins or until soft."),
+                  buildTextSubTitleVariation1("STAP 2"),
+                  buildTextSubTitleVariation1("Verhit de olie in een grote, zware pan. Voeg de ui, knoflook, groene peper, gember en wat kruiden toe. Bak op middelhoog vuur gedurende 10 minuten of tot ze zacht zijn."),
 
-                  buildTextSubTitleVariation1("STEP 3"),
-                  buildTextSubTitleVariation1("Add the spices with the tomato purée, cook for a further 2 mins until fragrant, then add the stock and marinated chicken. Cook for 15 mins, then add any remaining marinade left in the bowl. Simmer for 5 mins, then sprinkle with the toasted almonds. Serve with rice, naan bread, chutney, coriander and lime wedges, if you like."),
+                  buildTextSubTitleVariation1("STAP 3"),
+                  buildTextSubTitleVariation1("Voeg de kruiden toe met de tomatenpuree, kook nog 2 minuten tot geurig, voeg dan de bouillon en de gemarineerde kip toe. Laat 15 minuten koken en voeg dan de overgebleven marinade toe die nog in de kom zit. Laat 5 minuten sudderen en bestrooi met de geroosterde amandelen. Serveer eventueel met rijst, naanbrood, chutney, koriander en partjes limoen."),
 
                 ],
               ),

@@ -19,7 +19,6 @@ class _ExploreState extends State<Explore> {
       backgroundColor: Colors.grey[50],
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        brightness: Brightness.light,
         elevation: 0,
         leading: Icon(
           Icons.sort,
@@ -46,9 +45,9 @@ class _ExploreState extends State<Explore> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   
-                  buildTextTitleVariation1('Springy Salads'),
+                  buildTextTitleVariation1('Hallo Ahmed'),
 
-                  buildTextSubTitleVariation1('Healthy and nutritious food recipes'),
+                  buildTextSubTitleVariation1('Wat ga je koken vandaag?'),
 
                   SizedBox(
                     height: 32,
@@ -58,11 +57,11 @@ class _ExploreState extends State<Explore> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       
-                      option('Vegetable', 'assets/icons/salad.png', 0),
+                      option('Vegetarisch', 'assets/icons/salad.png', 0),
                       SizedBox(
                         width: 8,
                       ),
-                      option('Rice', 'assets/icons/rice.png', 1),
+                      option('Rijst', 'assets/icons/rice.png', 1),
                       SizedBox(
                         width: 8,
                       ),
@@ -97,13 +96,13 @@ class _ExploreState extends State<Explore> {
               child: Row(
                 children: [
 
-                  buildTextTitleVariation2('Popular', false),
+                  buildTextTitleVariation2('Populaire', false),
 
                   SizedBox(
                     width: 8,
                   ),
 
-                  buildTextTitleVariation2('Food', true),
+                  buildTextTitleVariation2('Gerechten', true),
 
                 ],
               ),
